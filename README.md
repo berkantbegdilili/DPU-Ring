@@ -8,6 +8,9 @@
 #
 > Used Frameworks ; UIKIT, GoogleMaps, GoogleMapsUtils, SwiftSoup
 
+#
+> NOT: OKULLAR KAPALI OLDUĞU İÇİN A1 NOLU HATTIN SAAT VERİLERİ ÇEKİLMİŞTİR!
+
 # Imagery (Görüntüler)
 ![run1](https://github.com/berkantbegdilili/DPU-Ring/blob/master/img/map.png)
 
