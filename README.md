@@ -1,4 +1,4 @@
-# Dumlupinar University - Ring Locations & Schedules
+# Dumlupinar University - Ring Locations & Schedules for iOS
 
 #
 > EN: It provides information to the user according to the system time of the user by pulling the hours of the ring line published by the Municipality of Kütahya over HTML.The route was created on Google Maps and transferred to the application in KML format. There are 6 different map styles. The map style is transferred to the application in JSON format.
