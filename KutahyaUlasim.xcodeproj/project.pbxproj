@@ -3,18 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C1B3C576A319A48C83259E /* Pods_KutahyaUlasim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CCFAA270261DB74459E254 /* Pods_KutahyaUlasim.framework */; };
+		B247724D04D12C46659214AA /* Pods_KutahyaUlasimTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B801D4BBBC88C8BD6569F071 /* Pods_KutahyaUlasimTests.framework */; };
+		CC605AAE9011AA4AC6BD708D /* Pods_KutahyaUlasim_KutahyaUlasimUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6C90D1E233BAB0C17EA360 /* Pods_KutahyaUlasim_KutahyaUlasimUITests.framework */; };
+		F847103E247EDB440075E239 /* ring.kml in Resources */ = {isa = PBXBuildFile; fileRef = F847103D247EDB440075E239 /* ring.kml */; };
 		F86A4FDC246AB656006423F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A4FDB246AB656006423F3 /* AppDelegate.swift */; };
 		F86A4FDE246AB656006423F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A4FDD246AB656006423F3 /* SceneDelegate.swift */; };
 		F86A4FE0246AB656006423F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A4FDF246AB656006423F3 /* ViewController.swift */; };
 		F86A4FE3246AB656006423F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86A4FE1246AB656006423F3 /* Main.storyboard */; };
 		F86A4FE5246AB658006423F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86A4FE4246AB658006423F3 /* Assets.xcassets */; };
 		F86A4FE8246AB658006423F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86A4FE6246AB658006423F3 /* LaunchScreen.storyboard */; };
-		F86A4FF3246AB659006423F3 /* KutahyaUlasimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A4FF2246AB659006423F3 /* KutahyaUlasimTests.swift */; };
-		F86A4FFE246AB659006423F3 /* KutahyaUlasimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A4FFD246AB659006423F3 /* KutahyaUlasimUITests.swift */; };
+		F86A5012246AC6F6006423F3 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = F86A5011246AC6F6006423F3 /* SwiftSoup */; };
+		F86A5014246AF223006423F3 /* UlasimData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86A5013246AF223006423F3 /* UlasimData.swift */; };
+		F8E57733247FC7730053203A /* DarkMapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = F8E57732247FC7730053203A /* DarkMapStyle.json */; };
+		F8E57735247FD4FF0053203A /* NightMapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = F8E57734247FD4FF0053203A /* NightMapStyle.json */; };
+		F8E57737247FD5390053203A /* RetroMapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = F8E57736247FD5390053203A /* RetroMapStyle.json */; };
+		F8E57739247FD5730053203A /* SilverMapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = F8E57738247FD5730053203A /* SilverMapStyle.json */; };
+		F8E5773B247FD59F0053203A /* AubergineMapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = F8E5773A247FD59F0053203A /* AubergineMapStyle.json */; };
+		F8E5773F247FE3920053203A /* StandartMapStyle.json in Resources */ = {isa = PBXBuildFile; fileRef = F8E5773E247FE3920053203A /* StandartMapStyle.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1226D9AC860B357B2881A062 /* Pods-KutahyaUlasim-KutahyaUlasimUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KutahyaUlasim-KutahyaUlasimUITests.release.xcconfig"; path = "Target Support Files/Pods-KutahyaUlasim-KutahyaUlasimUITests/Pods-KutahyaUlasim-KutahyaUlasimUITests.release.xcconfig"; sourceTree = "<group>"; };
+		76CCFAA270261DB74459E254 /* Pods_KutahyaUlasim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KutahyaUlasim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FF10AF2DDC3F3E480F8580 /* Pods-KutahyaUlasimTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KutahyaUlasimTests.release.xcconfig"; path = "Target Support Files/Pods-KutahyaUlasimTests/Pods-KutahyaUlasimTests.release.xcconfig"; sourceTree = "<group>"; };
+		B801D4BBBC88C8BD6569F071 /* Pods_KutahyaUlasimTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KutahyaUlasimTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF73517122BAB400DB8DB3D7 /* Pods-KutahyaUlasimTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KutahyaUlasimTests.debug.xcconfig"; path = "Target Support Files/Pods-KutahyaUlasimTests/Pods-KutahyaUlasimTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0853CEF2A7B6F4A2A0B0B80 /* Pods-KutahyaUlasim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KutahyaUlasim.release.xcconfig"; path = "Target Support Files/Pods-KutahyaUlasim/Pods-KutahyaUlasim.release.xcconfig"; sourceTree = "<group>"; };
+		D0E379572C24EDFF151CA4D5 /* Pods-KutahyaUlasim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KutahyaUlasim.debug.xcconfig"; path = "Target Support Files/Pods-KutahyaUlasim/Pods-KutahyaUlasim.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6C90D1E233BAB0C17EA360 /* Pods_KutahyaUlasim_KutahyaUlasimUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KutahyaUlasim_KutahyaUlasimUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26BAADA67B8FFFC2ACF374A /* Pods-KutahyaUlasim-KutahyaUlasimUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KutahyaUlasim-KutahyaUlasimUITests.debug.xcconfig"; path = "Target Support Files/Pods-KutahyaUlasim-KutahyaUlasimUITests/Pods-KutahyaUlasim-KutahyaUlasimUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F80020FA247D4296001AA938 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F847103D247EDB440075E239 /* ring.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ring.kml; sourceTree = "<group>"; };
 		F86A4FD8246AB656006423F3 /* KutahyaUlasim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KutahyaUlasim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86A4FDB246AB656006423F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F86A4FDD246AB656006423F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,11 +65,16 @@
 		F86A4FE7246AB658006423F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F86A4FE9246AB658006423F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F86A4FEE246AB659006423F3 /* KutahyaUlasimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KutahyaUlasimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F86A4FF2246AB659006423F3 /* KutahyaUlasimTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KutahyaUlasimTests.swift; sourceTree = "<group>"; };
-		F86A4FF4246AB659006423F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F86A4FF9246AB659006423F3 /* KutahyaUlasimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KutahyaUlasimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F86A4FFD246AB659006423F3 /* KutahyaUlasimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KutahyaUlasimUITests.swift; sourceTree = "<group>"; };
-		F86A4FFF246AB659006423F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F86A500C246ABEC3006423F3 /* SwiftSoup-2.3.2.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "SwiftSoup-2.3.2.zip"; path = "../../Downloads/SwiftSoup-2.3.2.zip"; sourceTree = "<group>"; };
+		F86A500D246ABED7006423F3 /* SwiftSoup-2.3.2 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "SwiftSoup-2.3.2"; path = "../../Downloads/SwiftSoup-2.3.2"; sourceTree = "<group>"; };
+		F86A5013246AF223006423F3 /* UlasimData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UlasimData.swift; sourceTree = "<group>"; };
+		F8E57732247FC7730053203A /* DarkMapStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DarkMapStyle.json; sourceTree = "<group>"; };
+		F8E57734247FD4FF0053203A /* NightMapStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NightMapStyle.json; sourceTree = "<group>"; };
+		F8E57736247FD5390053203A /* RetroMapStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RetroMapStyle.json; sourceTree = "<group>"; };
+		F8E57738247FD5730053203A /* SilverMapStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SilverMapStyle.json; sourceTree = "<group>"; };
+		F8E5773A247FD59F0053203A /* AubergineMapStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AubergineMapStyle.json; sourceTree = "<group>"; };
+		F8E5773E247FE3920053203A /* StandartMapStyle.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StandartMapStyle.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86A5012246AC6F6006423F3 /* SwiftSoup in Frameworks */,
+				01C1B3C576A319A48C83259E /* Pods_KutahyaUlasim.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B247724D04D12C46659214AA /* Pods_KutahyaUlasimTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +99,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC605AAE9011AA4AC6BD708D /* Pods_KutahyaUlasim_KutahyaUlasimUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6E59490D9BE45E694188473 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0E379572C24EDFF151CA4D5 /* Pods-KutahyaUlasim.debug.xcconfig */,
+				D0853CEF2A7B6F4A2A0B0B80 /* Pods-KutahyaUlasim.release.xcconfig */,
+				F26BAADA67B8FFFC2ACF374A /* Pods-KutahyaUlasim-KutahyaUlasimUITests.debug.xcconfig */,
+				1226D9AC860B357B2881A062 /* Pods-KutahyaUlasim-KutahyaUlasimUITests.release.xcconfig */,
+				CF73517122BAB400DB8DB3D7 /* Pods-KutahyaUlasimTests.debug.xcconfig */,
+				A1FF10AF2DDC3F3E480F8580 /* Pods-KutahyaUlasimTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F86A4FCF246AB656006423F3 = {
 			isa = PBXGroup;
 			children = (
 				F86A4FDA246AB656006423F3 /* KutahyaUlasim */,
-				F86A4FF1246AB659006423F3 /* KutahyaUlasimTests */,
-				F86A4FFC246AB659006423F3 /* KutahyaUlasimUITests */,
 				F86A4FD9246AB656006423F3 /* Products */,
+				F86A500B246ABEC2006423F3 /* Frameworks */,
+				D6E59490D9BE45E694188473 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,33 +142,52 @@
 		F86A4FDA246AB656006423F3 /* KutahyaUlasim */ = {
 			isa = PBXGroup;
 			children = (
+				F8E5773D247FD5E90053203A /* Resources */,
+				F8E5773C247FD5AF0053203A /* MapStyle */,
 				F86A4FDB246AB656006423F3 /* AppDelegate.swift */,
 				F86A4FDD246AB656006423F3 /* SceneDelegate.swift */,
 				F86A4FDF246AB656006423F3 /* ViewController.swift */,
-				F86A4FE1246AB656006423F3 /* Main.storyboard */,
-				F86A4FE4246AB658006423F3 /* Assets.xcassets */,
-				F86A4FE6246AB658006423F3 /* LaunchScreen.storyboard */,
 				F86A4FE9246AB658006423F3 /* Info.plist */,
+				F86A5013246AF223006423F3 /* UlasimData.swift */,
+				F847103D247EDB440075E239 /* ring.kml */,
 			);
 			path = KutahyaUlasim;
 			sourceTree = "<group>";
 		};
-		F86A4FF1246AB659006423F3 /* KutahyaUlasimTests */ = {
+		F86A500B246ABEC2006423F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F86A4FF2246AB659006423F3 /* KutahyaUlasimTests.swift */,
-				F86A4FF4246AB659006423F3 /* Info.plist */,
+				F80020FA247D4296001AA938 /* MapKit.framework */,
+				F86A500D246ABED7006423F3 /* SwiftSoup-2.3.2 */,
+				F86A500C246ABEC3006423F3 /* SwiftSoup-2.3.2.zip */,
+				76CCFAA270261DB74459E254 /* Pods_KutahyaUlasim.framework */,
+				ED6C90D1E233BAB0C17EA360 /* Pods_KutahyaUlasim_KutahyaUlasimUITests.framework */,
+				B801D4BBBC88C8BD6569F071 /* Pods_KutahyaUlasimTests.framework */,
 			);
-			path = KutahyaUlasimTests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F86A4FFC246AB659006423F3 /* KutahyaUlasimUITests */ = {
+		F8E5773C247FD5AF0053203A /* MapStyle */ = {
 			isa = PBXGroup;
 			children = (
-				F86A4FFD246AB659006423F3 /* KutahyaUlasimUITests.swift */,
-				F86A4FFF246AB659006423F3 /* Info.plist */,
+				F8E57732247FC7730053203A /* DarkMapStyle.json */,
+				F8E57734247FD4FF0053203A /* NightMapStyle.json */,
+				F8E57736247FD5390053203A /* RetroMapStyle.json */,
+				F8E57738247FD5730053203A /* SilverMapStyle.json */,
+				F8E5773A247FD59F0053203A /* AubergineMapStyle.json */,
+				F8E5773E247FE3920053203A /* StandartMapStyle.json */,
 			);
-			path = KutahyaUlasimUITests;
+			path = MapStyle;
+			sourceTree = "<group>";
+		};
+		F8E5773D247FD5E90053203A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F86A4FE4246AB658006423F3 /* Assets.xcassets */,
+				F86A4FE1246AB656006423F3 /* Main.storyboard */,
+				F86A4FE6246AB658006423F3 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,15 +197,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F86A5002246AB659006423F3 /* Build configuration list for PBXNativeTarget "KutahyaUlasim" */;
 			buildPhases = (
+				CB13A5E59BC9CADA0FBD08E2 /* [CP] Check Pods Manifest.lock */,
 				F86A4FD4246AB656006423F3 /* Sources */,
 				F86A4FD5246AB656006423F3 /* Frameworks */,
 				F86A4FD6246AB656006423F3 /* Resources */,
+				7217765BBF4017CD57D5C425 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = KutahyaUlasim;
+			packageProductDependencies = (
+				F86A5011246AC6F6006423F3 /* SwiftSoup */,
+			);
 			productName = KutahyaUlasim;
 			productReference = F86A4FD8246AB656006423F3 /* KutahyaUlasim.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F86A5005246AB659006423F3 /* Build configuration list for PBXNativeTarget "KutahyaUlasimTests" */;
 			buildPhases = (
+				F739C80A8B33CA04D7952FD6 /* [CP] Check Pods Manifest.lock */,
 				F86A4FEA246AB659006423F3 /* Sources */,
 				F86A4FEB246AB659006423F3 /* Frameworks */,
 				F86A4FEC246AB659006423F3 /* Resources */,
@@ -170,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F86A5008246AB659006423F3 /* Build configuration list for PBXNativeTarget "KutahyaUlasimUITests" */;
 			buildPhases = (
+				1920DE930CB5E2F99E891238 /* [CP] Check Pods Manifest.lock */,
 				F86A4FF5246AB659006423F3 /* Sources */,
 				F86A4FF6246AB659006423F3 /* Frameworks */,
 				F86A4FF7246AB659006423F3 /* Resources */,
+				BD8BB9ACC43DD4CC2D229786 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -216,6 +286,9 @@
 				Base,
 			);
 			mainGroup = F86A4FCF246AB656006423F3;
+			packageReferences = (
+				F86A5010246AC6F6006423F3 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = F86A4FD9246AB656006423F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,8 +305,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F847103E247EDB440075E239 /* ring.kml in Resources */,
+				F8E5773B247FD59F0053203A /* AubergineMapStyle.json in Resources */,
+				F8E57733247FC7730053203A /* DarkMapStyle.json in Resources */,
+				F8E57739247FD5730053203A /* SilverMapStyle.json in Resources */,
 				F86A4FE8246AB658006423F3 /* LaunchScreen.storyboard in Resources */,
 				F86A4FE5246AB658006423F3 /* Assets.xcassets in Resources */,
+				F8E57737247FD5390053203A /* RetroMapStyle.json in Resources */,
+				F8E5773F247FE3920053203A /* StandartMapStyle.json in Resources */,
+				F8E57735247FD4FF0053203A /* NightMapStyle.json in Resources */,
 				F86A4FE3246AB656006423F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,11 +334,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1920DE930CB5E2F99E891238 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KutahyaUlasim-KutahyaUlasimUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7217765BBF4017CD57D5C425 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KutahyaUlasim/Pods-KutahyaUlasim-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KutahyaUlasim/Pods-KutahyaUlasim-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KutahyaUlasim/Pods-KutahyaUlasim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8BB9ACC43DD4CC2D229786 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KutahyaUlasim-KutahyaUlasimUITests/Pods-KutahyaUlasim-KutahyaUlasimUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KutahyaUlasim-KutahyaUlasimUITests/Pods-KutahyaUlasim-KutahyaUlasimUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KutahyaUlasim-KutahyaUlasimUITests/Pods-KutahyaUlasim-KutahyaUlasimUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB13A5E59BC9CADA0FBD08E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KutahyaUlasim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F739C80A8B33CA04D7952FD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KutahyaUlasimTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F86A4FD4246AB656006423F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F86A5014246AF223006423F3 /* UlasimData.swift in Sources */,
 				F86A4FE0246AB656006423F3 /* ViewController.swift in Sources */,
 				F86A4FDC246AB656006423F3 /* AppDelegate.swift in Sources */,
 				F86A4FDE246AB656006423F3 /* SceneDelegate.swift in Sources */,
@@ -269,7 +453,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F86A4FF3246AB659006423F3 /* KutahyaUlasimTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +460,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F86A4FFE246AB659006423F3 /* KutahyaUlasimUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +614,7 @@
 		};
 		F86A5003246AB659006423F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E379572C24EDFF151CA4D5 /* Pods-KutahyaUlasim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +633,7 @@
 		};
 		F86A5004246AB659006423F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0853CEF2A7B6F4A2A0B0B80 /* Pods-KutahyaUlasim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +652,7 @@
 		};
 		F86A5006246AB659006423F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF73517122BAB400DB8DB3D7 /* Pods-KutahyaUlasimTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +675,7 @@
 		};
 		F86A5007246AB659006423F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1FF10AF2DDC3F3E480F8580 /* Pods-KutahyaUlasimTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +698,7 @@
 		};
 		F86A5009246AB659006423F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F26BAADA67B8FFFC2ACF374A /* Pods-KutahyaUlasim-KutahyaUlasimUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +719,7 @@
 		};
 		F86A500A246AB659006423F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1226D9AC860B357B2881A062 /* Pods-KutahyaUlasim-KutahyaUlasimUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -590,6 +778,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F86A5010246AC6F6006423F3 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F86A5011246AC6F6006423F3 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F86A5010246AC6F6006423F3 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F86A4FD0246AB656006423F3 /* Project object */;
 }

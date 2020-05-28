@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  KutahyaUlasim
 //
-//  Created by Berkant Beğdilili on 12.05.2020.
+//  Created by Berkant Beğdilili on 27.05.2020.
 //  Copyright © 2020 Berkant Beğdilili. All rights reserved.
 //
 
