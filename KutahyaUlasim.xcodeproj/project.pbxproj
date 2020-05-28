@@ -54,7 +54,6 @@
 		D0E379572C24EDFF151CA4D5 /* Pods-KutahyaUlasim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KutahyaUlasim.debug.xcconfig"; path = "Target Support Files/Pods-KutahyaUlasim/Pods-KutahyaUlasim.debug.xcconfig"; sourceTree = "<group>"; };
 		ED6C90D1E233BAB0C17EA360 /* Pods_KutahyaUlasim_KutahyaUlasimUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KutahyaUlasim_KutahyaUlasimUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26BAADA67B8FFFC2ACF374A /* Pods-KutahyaUlasim-KutahyaUlasimUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KutahyaUlasim-KutahyaUlasimUITests.debug.xcconfig"; path = "Target Support Files/Pods-KutahyaUlasim-KutahyaUlasimUITests/Pods-KutahyaUlasim-KutahyaUlasimUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F80020FA247D4296001AA938 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F847103D247EDB440075E239 /* ring.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ring.kml; sourceTree = "<group>"; };
 		F86A4FD8246AB656006423F3 /* KutahyaUlasim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KutahyaUlasim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86A4FDB246AB656006423F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -157,7 +156,6 @@
 		F86A500B246ABEC2006423F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F80020FA247D4296001AA938 /* MapKit.framework */,
 				F86A500D246ABED7006423F3 /* SwiftSoup-2.3.2 */,
 				F86A500C246ABEC3006423F3 /* SwiftSoup-2.3.2.zip */,
 				76CCFAA270261DB74459E254 /* Pods_KutahyaUlasim.framework */,
