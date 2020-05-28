@@ -7,7 +7,6 @@ target 'KutahyaUlasim' do
 
   # Pods for KutahyaUlasim
 pod 'GoogleMaps'
-pod 'GooglePlaces'
 pod 'Google-Maps-iOS-Utils', '~> 3.1.4'
 
   target 'KutahyaUlasimTests' do
