@@ -143,7 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				F8E5773D247FD5E90053203A /* Resources */,
-				F8E5773C247FD5AF0053203A /* MapStyle */,
+				F8E5773C247FD5AF0053203A /* MapStyles */,
 				F86A4FDB246AB656006423F3 /* AppDelegate.swift */,
 				F86A4FDD246AB656006423F3 /* SceneDelegate.swift */,
 				F86A4FDF246AB656006423F3 /* ViewController.swift */,
@@ -167,7 +167,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F8E5773C247FD5AF0053203A /* MapStyle */ = {
+		F8E5773C247FD5AF0053203A /* MapStyles */ = {
 			isa = PBXGroup;
 			children = (
 				F8E57732247FC7730053203A /* DarkMapStyle.json */,
@@ -177,7 +177,7 @@
 				F8E5773A247FD59F0053203A /* AubergineMapStyle.json */,
 				F8E5773E247FE3920053203A /* StandartMapStyle.json */,
 			);
-			path = MapStyle;
+			path = MapStyles;
 			sourceTree = "<group>";
 		};
 		F8E5773D247FD5E90053203A /* Resources */ = {
