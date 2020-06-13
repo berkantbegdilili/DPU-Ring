@@ -73,7 +73,7 @@ class ViewController: UIViewController{
         
         // Map Stili Değiştirme
         do {
-          if let styleURL = Bundle.main.url(forResource: "AubergineMapStyle", withExtension: "json") {
+          if let styleURL = Bundle.main.url(forResource: "StandartMapStyle", withExtension: "json") {
             mapView.mapStyle = try GMSMapStyle(contentsOfFileURL: styleURL)
           } else {
             NSLog("Unable to find style.json")
